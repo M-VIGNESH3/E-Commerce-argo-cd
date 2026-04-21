@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: 'https://github.com/M-VIGNESH3/E-Commerce-argo-cd.git'
     targetRevision: main
-    path: apps
+    path: manifest
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd
